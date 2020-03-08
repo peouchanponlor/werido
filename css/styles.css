@@ -1,0 +1,134 @@
+body{
+  font-family: "Montserrat";
+  text-align:center;
+}
+#title{
+  background-color:#ff4c68;
+  color:#fff;
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6,testimonials-text,text-cta{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size:3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15% 15%;
+}
+/* Title of the image*/
+.photo{
+  transform: rotate(20deg);
+  left:50px;
+  margin: 50px;
+  width: 350px;
+  position:absolute;
+}
+/*Navigation bar*/
+.navbar{
+  padding:0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.row{
+  padding: 4rem 0 0 0;
+}
+/*download buttons*/
+.download-button{
+  margin:5% 1.5% 5%;
+}
+/* features*/
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+}
+.features-title{
+  padding-top:10px;
+  font-size: 1.5rem;
+}
+.col-lg-4{
+  text-align: center;
+}
+.features-p{
+  color:#8f8f8f;
+}
+.fas:hover {
+  color: #ff4c68 !important;
+}
+/*testimonials*/
+#testimonials{
+  color:#fff;
+  background-color:#ff4c68;
+}
+.testimonials-photo{
+  margin-top: 10px;
+  margin-right: 10px;
+  width:100px;
+  border-radius: 50%;
+}
+.carousel-item{
+  padding:7% 25%;
+}
+/*press*/
+#press{
+  background-color:#ff4c68;
+  padding:3% 15%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 10px 50px;
+}
+/* pricing */
+#pricing{
+  padding:100px;
+}
+.pricing-col{
+  padding:2% 3%;
+}
+/*when web on phone screen, it go to this condition.*/
+@media(max-width:1028px)
+{
+  .photo{
+    position:static;
+    transform:rotate(0);
+  }
+  #title{
+    text-align:center;
+  }
+}
+/*Call to action*/
+#cta{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.text-cta{
+  padding: 5% 25% 1%;
+  font-size: 2.5rem;
+}
+#footer{
+  background-color:#fff;
+  padding:5% 5% 1%;;
+}
+.footer-p{
+  color:#8f8f8f;
+  padding-top:10px;
+}
+.footer-icon{
+  margin:1% 1%
+}
